@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.12.0 on win32)" generated="20231031 15:59:07.636" rpa="false" schemaversion="4">
+<suite id="s1" name="Search" source="C:\Users\Asus\Sanber50-MobileAutomation-Kelompok2\suites\search.robot">
+<test id="s1-t1" name="User not be able to search flight number with invalid email" line="13">
+<kw name="Open Flight Application" library="base" type="SETUP">
+<kw name="Open Application">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appActivity=${ACTIVITY_NAME}</arg>
+<arg>appPackage=${PACKAGE_NAME}</arg>
+<arg>automationName=UiAutomator2</arg>
+<msg timestamp="20231031 15:59:07.686" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<status status="FAIL" starttime="20231031 15:59:07.686" endtime="20231031 15:59:07.686"/>
+</kw>
+<status status="FAIL" starttime="20231031 15:59:07.682" endtime="20231031 15:59:07.686"/>
+</kw>
+<status status="FAIL" starttime="20231031 15:59:07.682" endtime="20231031 15:59:07.686">Setup failed:
+No keyword with name 'Open Application' found.</status>
+</test>
+<test id="s1-t2" name="User should be able to search flight number with valid data" line="18">
+<kw name="Open Flight Application" library="base" type="SETUP">
+<kw name="Open Application">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appActivity=${ACTIVITY_NAME}</arg>
+<arg>appPackage=${PACKAGE_NAME}</arg>
+<arg>automationName=UiAutomator2</arg>
+<msg timestamp="20231031 15:59:07.690" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<status status="FAIL" starttime="20231031 15:59:07.690" endtime="20231031 15:59:07.690"/>
+</kw>
+<status status="FAIL" starttime="20231031 15:59:07.688" endtime="20231031 15:59:07.690"/>
+</kw>
+<status status="FAIL" starttime="20231031 15:59:07.688" endtime="20231031 15:59:07.690">Setup failed:
+No keyword with name 'Open Application' found.</status>
+</test>
+<status status="FAIL" starttime="20231031 15:59:07.637" endtime="20231031 15:59:07.693"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Search">Search</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231031 15:59:07.660" level="ERROR">Error in file 'C:\Users\Asus\Sanber50-MobileAutomation-Kelompok2\suites\search.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python312\Scripts\robot.exe
+  C:\Python312\python312.zip
+  C:\Python312\DLLs
+  C:\Python312\Lib
+  C:\Python312
+  C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages
+  C:\Python312\Lib\site-packages</msg>
+<msg timestamp="20231031 15:59:07.664" level="ERROR">Error in file 'C:\Users\Asus\Sanber50-MobileAutomation-Kelompok2\pageObject\keyword.resource' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python312\Scripts\robot.exe
+  C:\Python312\python312.zip
+  C:\Python312\DLLs
+  C:\Python312\Lib
+  C:\Python312
+  C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages
+  C:\Python312\Lib\site-packages</msg>
+<msg timestamp="20231031 15:59:07.668" level="ERROR">Error in file 'C:\Users\Asus\Sanber50-MobileAutomation-Kelompok2\pageObject\base.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python312\Scripts\robot.exe
+  C:\Python312\python312.zip
+  C:\Python312\DLLs
+  C:\Python312\Lib
+  C:\Python312
+  C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages
+  C:\Python312\Lib\site-packages</msg>
+<msg timestamp="20231031 15:59:07.678" level="ERROR">Error in file 'C:\Users\Asus\Sanber50-MobileAutomation-Kelompok2\pageObject\search.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python312\Scripts\robot.exe
+  C:\Python312\python312.zip
+  C:\Python312\DLLs
+  C:\Python312\Lib
+  C:\Python312
+  C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages
+  C:\Python312\Lib\site-packages</msg>
+</errors>
+</robot>
